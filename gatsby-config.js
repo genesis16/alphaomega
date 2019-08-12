@@ -7,7 +7,7 @@ module.exports = {
 	keywords: 'Melbourne web developer, front end developer, digital marketer, social media marketer, gatsby js developer, Melbourne wordpress developer',
   },
   plugins: [
-   `gatsby-transformer-sharp`,
+   'gatsby-transformer-sharp', 'gatsby-transformer-remark',
     'gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-source-contentful',

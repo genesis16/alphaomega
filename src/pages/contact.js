@@ -16,6 +16,7 @@ background: linear-gradient(102.24deg, #9B51E0 0%, #3436E7 100%);
   border-radius: 10px; 
  @media (max-width: 700px) {
    width: 300px;
+   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
  }
 `
 const ContactForm = styled.div`
@@ -136,7 +137,7 @@ export default class Contact extends PureComponent {
     <Section
      image= {require('../images/rain.jpg')}
      logo= {require('../images/logo-react.png')}
-      title="Build your dream website"
+      title="All business tyupes, all budgets."
       text="Transform your website into a feature rich, lightening fast, SEO optimised site that will improve your page loading speed, decrease your bounce rate, and convert more clients. "
      />
      </div>

@@ -136,7 +136,7 @@ export default class Contact extends PureComponent {
     <Section
      image= {require('../images/rain.jpg')}
      logo= {require('../images/logo-react.png')}
-      title="All business tyupes, all budgets."
+      title="Projects for all budgets."
       text="Transform your website into a feature rich, lightening fast, SEO optimised site that will improve your page loading speed, decrease your bounce rate, and convert more clients. "
      />
      </div>

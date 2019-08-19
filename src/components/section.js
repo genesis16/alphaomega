@@ -17,7 +17,7 @@ const SectionGroup = styled.div`
 
 const SectionLogo = styled.img`
     align-self: end;
-    width: 80px;
+    width: 128px;
     margin: 0 auto;
 `
 
@@ -34,10 +34,9 @@ const SectionTitleGroup = styled.div`
 
 const SectionTitle = styled.h3`
     color: white;
-    font-size: 45px;
+    font-size: 60px;
     margin: 0;
     line-height: 1.2;
-    text-shadow: #000 1px 0 15px;
     @media (max-width: 720px) {
         font-size: 40px;
         text-align: center;
@@ -46,10 +45,6 @@ const SectionTitle = styled.h3`
 
 const SectionText = styled.p`
     color: white;
-    font-weight: bold;
-    font-size: 25px;
-    text-shadow: #000 1px 0 15px;
-    
 `
 
 const WaveBottom = styled.div`

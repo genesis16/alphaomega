@@ -10,7 +10,7 @@ const IndexPage = () => (
   <div>
    <div className="Hero">
    <div className="HeroGroup">
-        <h1>Alpha + Omega digital </h1>
+        <h1>Projects</h1>
         <p>Build. Brand. Sell </p>
         <div className="Logos">
           <a className="link icon-link" href="https://sketch.com">

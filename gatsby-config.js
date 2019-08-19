@@ -1,36 +1,27 @@
-
-
 module.exports = {
   siteMetadata: {
 	title: 'Alpha + Omega digital',
-	description: 'Melbourne freelance web and wordpress developer',
+	description: 'Melbourne web and wordpress developer',
 	keywords: 'Melbourne web developer, front end developer, digital marketer, social media marketer, gatsby js developer, Melbourne wordpress developer',
   },
   plugins: [
-   'gatsby-transformer-sharp', 'gatsby-transformer-remark',
-    'gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components',
+    'gatsby-plugin-react-helmet',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: '065w0ie15r5x',
-        accessToken: 'TOYanXc7Xjar_G84o9i8W6hAbap5YsxAxJ0OOrUhnNw',
-        host: 'cdn.contentful.com',
+        accessToken: 'JTamLV_QHVpF5DcWN4wsh6wOcQ1i15yR_Bqm3IUFO7o'
       }
     },
     {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        useMozJpeg: false,
-        stripMetadata: true,
-        defaultQuality: 75,
-      }
-    },
-
-    { 
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: 'https://thealphaandomega.us20.list-manage.com/subscribe/post?u=76cf21d34b66efc97f0ee8cd1&amp;id=dc638d0727',
-      },
-    },
+        endpoint: 'https://gmail.us3.list-manage.com/subscribe/post?u=87674d942c495c6ff1ec6199d&amp;id=7a0e690fb4' // Replace it by OWN link. Described in messages
+      }
+    }
   ],
 }
+
+

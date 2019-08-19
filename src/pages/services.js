@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Section from '../components/Section'
 import Wave from '../components/Wave'
 import styled from 'styled-components'
@@ -15,7 +14,7 @@ const About = () => (
   <div>
    <div className="Hero">
    <div className="HeroGroup">
-        <h1>Alpha + Omega digital </h1>
+        <h1>Digital Marketing</h1>
         <p>Build. Brand. Sell</p>
         <div className="Logos">
         <a className="link icon-link" href="https://sketch.com">
@@ -57,6 +56,10 @@ const About = () => (
       Email marketing builds brand awareness, helps you build authority and trust and build a relationship over time that is more likely to convert into a sale. Did you know that 91% of people check their emails <em>daily</em>, whereas many average users go days without checking their social media feed - particularly business owners.
       A well executed and nicely presented email campaign is paramount to connecting with your audience, and maximising revenue during lull times of year to provide your busines with a consistent income.</p>
       <p>I will setup a Mailchimp integration with your contact form, and custom code a HTML email to send a professional and sales driven email to your client base that will be analysed with all major data end points- open rate, unsubcribe rate, new subscribe rate, click through rate, and website sale conversion. </p>
+
+      <h2>Revive your Social Media Feed</h2>
+      <h3> Trust me, I'm a Hootsuite certified professional.</h3>
+      <p>Most business owners don't have the time or inclination to build their social media pages. Perhaps you don't see the value. Or perhaps you dont have a strategy or schedule that is required to post valuable and consistent content to engage your audience. Social media can be a powerful tool to help you build and grow your business, and alongside content marketing is part of a marketing mix that provides another avenue to help you generate new leads and clients! You don't have to spend alot of time on your feed, or engaging in comments. I can turn off your comments, freeing up your time, or set key times for you to check messages and respond to prospects. YOur content can also be set on a schedule to publish at the key times your demographic is online and most likely to view your posts. I can also give you a report on engagement, trending topics, most viewed posts and more. </p>
      </DigitalMarketing>
   
       <Section

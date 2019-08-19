@@ -17,7 +17,7 @@ site {
        keywords 
     }
   }
-  allContentfulLink(sort: {fields: [createdAt], order: ASC }) {
+  allContentfulLink {
     edges {
       node {
         title
@@ -44,9 +44,8 @@ const Layout = ({ children }) => (
           <Header/>
           {children}
           <Footer data={data}>
-            Websites built in modern javacript frameworks, optimised for speed and SEO.<br/>
-            <a href="mailto:jane@thealphaandomega.com.au">Email Us&nbsp;
-            </a>to ask anything.
+            Website buils in modern javacript frameworks, optimised for speed and SEO. 
+            <a href="mailto:jane@thealphaandomega.com.au">Email Us</a>to asky anything.
           </Footer>
         </div>
       </>

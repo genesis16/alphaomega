@@ -14,7 +14,7 @@ const Social = () => (
   <div>
    <div className="Hero">
    <div className="HeroGroup">
-        <h1>Alpha + Omega digital </h1>
+        <h1>Social Media</h1>
         <p>Build. Brand. Sell </p>
         <div className="Logos">
         <a className="link icon-link" href="https://sketch.com">

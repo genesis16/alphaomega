@@ -8,7 +8,7 @@ const Blog = ({ data: { allContentfulBlogPost: { edges } } }) => (
 
     <div style={{ margin: 'auto', display: 'flex', flexWrap: 'wrap', maxWidth: 1170, justifyContent: 'center' }}>
       {edges.map(({ node }) => (
-        <Link to={node.slug} style={{ width: '33%', display: 'flex', flexDirection: 'column'}}>
+        <Link to={node.slug} style={{ width: '33%', display: 'block', flexDirection: 'row'}}>
           <div style={{ margin: 15, background: '#f5f5f5' }}>
             <Image
               style={{ width: '100%', maxHeight: 220}}

@@ -139,6 +139,7 @@ justify-items: center;
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 .Cards h2 {
   margin: 50px 20px;
   font-size: 60px;

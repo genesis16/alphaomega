@@ -4,6 +4,7 @@ import Section from '../components/Section'
 import Wave from '../components/Wave'
 import Layout from '../layouts'
 
+
 const IndexPage = () => (
   <Layout>
   <div>
@@ -11,6 +12,7 @@ const IndexPage = () => (
    <div className="HeroGroup">
         <h1>Alpha + Omega digital </h1>
         <p>Build. Brand. Sell </p>
+        
         <div className="Logos">
           <a className="link icon-link" href="https://sketch.com">
             <img src={require("../images/logo-sketch.png")} width="50" />

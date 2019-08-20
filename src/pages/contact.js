@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import Section from '../components/Section'
-import Wave from '../components/Wave'
+import Wave from '../components/wave'
 import styled from 'styled-components'
 import Layout from '../layouts'
 

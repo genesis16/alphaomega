@@ -1,7 +1,7 @@
 import React from 'react'
-import Card from '../components/Card'
-import Section from '../components/Section'
-import Wave from '../components/Wave'
+import Card from '../components/card'
+import Section from '../components/section'
+import Wave from '../components/wave'
 import Layout from '../layouts'
 
 

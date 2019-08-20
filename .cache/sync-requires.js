@@ -10,9 +10,8 @@ exports.components = {
   "component---src-pages-blog-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/blog.js"))),
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/contact.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/page-2.js"))),
   "component---src-pages-projects-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/projects.js"))),
   "component---src-pages-services-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/services.js"))),
-  "component---src-pages-social-media-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/SocialMedia.js")))
+  "component---src-pages-socialmedia-js": hot(preferDefault(require("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/socialmedia.js")))
 }
 

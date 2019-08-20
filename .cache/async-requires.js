@@ -7,9 +7,8 @@ exports.components = {
   "component---src-pages-blog-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/blog.js" /* webpackChunkName: "component---src-pages-blog-js" */),
   "component---src-pages-contact-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
   "component---src-pages-index-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-page-2-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/page-2.js" /* webpackChunkName: "component---src-pages-page-2-js" */),
   "component---src-pages-projects-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/projects.js" /* webpackChunkName: "component---src-pages-projects-js" */),
   "component---src-pages-services-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/services.js" /* webpackChunkName: "component---src-pages-services-js" */),
-  "component---src-pages-social-media-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/SocialMedia.js" /* webpackChunkName: "component---src-pages-social-media-js" */)
+  "component---src-pages-socialmedia-js": () => import("/Users/janewhitehead/Desktop/Projects/gatsby/alphaomega/src/pages/socialmedia.js" /* webpackChunkName: "component---src-pages-socialmedia-js" */)
 }
 

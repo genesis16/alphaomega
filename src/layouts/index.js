@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
+import './header.css'
 import './index.css'
 import { graphql, StaticQuery } from "gatsby"
 import Footer from '../components/Footer';

@@ -4,7 +4,6 @@ import Wave from '../components/wave'
 import styled from 'styled-components'
 import Layout from '../layouts'
 import Section from '../components/section'
-import './header.css'
 
 const ContactContainer = styled.div`
 box-sizing: content-box;

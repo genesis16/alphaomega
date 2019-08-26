@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../components/card'
+import Card from '../components/Card'
 import Section from '../components/section'
 import Wave from '../components/wave'
 import Layout from '../layouts'

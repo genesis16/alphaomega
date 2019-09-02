@@ -28,8 +28,8 @@ handleScroll = (event) => {
   render() {
     return (
       <div className={this.state.hasScrolled ?
-      'Header HeaderScrolled' : 'Header'}>
-       <div className="HeaderGroup">
+      'header headerscrolled' : 'header'}>
+       <div className="headergroup">
        <Link to="/"><img src={require('../images/logo-alpha.png')} width="80"/></Link>
        </div>
        <Link to="/projects">projects</Link>

@@ -1,4 +1,4 @@
-.Header {
+.header {
     position: fixed;
     width: 100%;
     padding: 20px 0;
@@ -6,12 +6,12 @@
     transition: 0.8s cubic-bezier(0.8, 0.2, 0.2, 1)
 }
 
-.HeaderScrolled {
+.headerscrolled {
     background: rgba(0,0,0,0.8);
     padding: 15px 0;
     backdrop-filter: blur(20px);
 }
-.HeaderGroup {
+.headergroup {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
@@ -19,14 +19,14 @@
     justify-content: space-around;
 }
 
-.Header a {
+.header a {
     color: #fff;
     font-weight: 700;
     transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
     text-shadow: black 1px 0 15px;
     padding: 8px 20px;
 }
-.HeaderGroup a:hover {
+.headergroup a:hover {
     background: rgba(0,0,0,0.5);
     text-shadow: none;
     color: white;
@@ -38,16 +38,16 @@
 }
 
 @media (max-width: 640px) {
-    .Header {
+    .header {
         padding: 5px 0;
     }
     .logo {
         display: none;
     }
-    .HeaderGroup {
+    .headergroup {
         grid-template-columns: repeat(4,auto);
     }
-    .Header a:nth-child(4) {
+    .header a:nth-child(4) {
         display:none;
     }
     

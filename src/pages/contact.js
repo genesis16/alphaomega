@@ -90,22 +90,22 @@ export default class Contact extends PureComponent {
             <p>Build. Brand. Sell </p>
         <div className="Logos">
           <a className="link icon-link" href="https://sketch.com">
-            <img src={require("../images/logo-sketch.png")} width="50" />
+            <img src={require("../images/logo-sketch.png")} width="50" alt="" />
           </a>
           <a className="link icon-link" href="https://www.figma.com">
-          <img src={require("../images/logo-figma.png")} width="50" />
+          <img src={require("../images/logo-figma.png")} width="50" alt="" />
           </a>
           <a className="link icon-link" href="https://www.framer.com">
-          <img src={require("../images/logo-framer.png")} width="50" />
+          <img src={require("../images/logo-framer.png")} width="50" alt="" />
           </a>
           <a className="link icon-link" href="https://www.gatsbyjs.org">
-          <img src={require("../images/gatsby-icon.png")} width="50" />
+          <img src={require("../images/gatsby-icon.png")} width="50" alt="" />
           </a>
           <a className="link icon-link" href="https://www.reactjs.org">
-          <img src={require("../images/logo-react.png")} width="50" />
+          <img src={require("../images/logo-react.png")} width="50" alt="" />
           </a>
           <a className="link icon-link" href="https://wordpress.org">
-          <img src={require("../images/wordpressicon.png")} width="50" />
+          <img src={require("../images/wordpressicon.png")} width="50" alt="" />
           </a>
             <Wave/>
             </div>

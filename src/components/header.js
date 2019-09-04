@@ -27,16 +27,15 @@ handleScroll = (event) => {
 
   render() {
     return (
-      <div className={this.state.hasScrolled ?
-      'header headerscrolled' : 'header'}>
-       <div className="headergroup">
-       <Link to="/"><img src={require('../images/logo-alpha.png')} width="80"/></Link>
-       </div>
-       <Link to="/projects">projects</Link>
-       <Link to="/services">Services</Link>
-       <Link to="/contact">Contact</Link>
-       <Link to="/blog">Blog</Link>
-   </div>
+      <div className={this.state.hasScrolled ? 'header headerscrolled' : 'header'}>
+        <div className="headergroup">
+          <Link to="/"><img src={require('../images/logo-alpha.png')} width="80" alt="" /></Link>
+        </div>
+        <Link to="/projects">projects</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/blog">Blog</Link>
+      </div>
      )
   }
 }

@@ -13,33 +13,44 @@ class Header extends React.Component {
 
   componentDidMount() {
     window.addEventListener('scroll',
-    this.handleScroll)
+      this.handleScroll)
   }
-handleScroll = (event) => {
-  const scrollTop = window.pageYOffset
+  handleScroll = (event) => {
+    const scrollTop = window.pageYOffset
 
-  if (scrollTop > 50) {
-     this.setState ({ hasScrolled: true })
-  } else {
-    this.setState({ hasScrolled: false })
+    if (scrollTop > 50) {
+      this.setState({
+        hasScrolled: true
+      })
+    } else {
+      this.setState({
+        hasScrolled: false
+      })
+    }
   }
-}
 
   render() {
-    return (
-      <div className={this.state.hasScrolled ?
-      'Header HeaderScrolled' : 'Header'}>
-       <div className="HeaderGroup">
-       <Link to="/"><img src={require('../images/logo-alpha.png')} width="80"/></Link>
-       </div>
-       <Link to="/projects">projects</Link>
-       <Link to="/services">Services</Link>
-       <Link to="/contact">Contact</Link>
-       <Link to="/blog">Blog</Link>
-   </div>
-     )
+    return ( <
+      div className = {
+        this.state.hasScrolled ?
+        'Header HeaderScrolled' : 'Header'
+      } >
+      <
+      div className = "HeaderGroup" >
+      <
+      Link to = "/" > < img src = {
+        require('../images/logo-alpha.png')
+      }
+      width = "50" / > < /Link>  <
+      Link to = "/about" > about < /Link>  <
+      Link to = "/projects" > projects < /Link>  <
+      Link to = "/services" > Services < /Link>  <
+      Link to = "/contact" > Contact < /Link> <
+      Link to = "/blog" > Blog < /Link>  <
+      /div>  <
+      /div>
+    )
   }
 }
 
 export default Header
-

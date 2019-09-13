@@ -74,8 +74,8 @@ const Footer = ({data, children}) => (
         <Text>Build and brand your business online with a modern, fast website built in the latest javascript
               frameworks. Contact me @JaneJames</Text>
         <Button>Tweet</Button>
-        <LinkGroup>{data.allContentfulLink.edges.map(edge => (
-          <a href={edge.node.url}>{edge.node.title}</a>
+        <LinkGroup>{data.allContentfulLink.edges.map((edge, index) => (
+          <a href={edge.node.url} key={`footer-${index}`}>{edge.node.title}</a>
         ))}</LinkGroup>
         <Copyright>
               {children}

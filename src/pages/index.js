@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../components/Card'
+import Card from '../components/card'
 import Section from '../components/section'
 import Wave from '../components/wave'
 import Layout from '../layouts'
@@ -76,8 +76,8 @@ const IndexPage = () => ( <
   /a> <
   Wave / >
   <
-  /div> <
-  /div> <
+  /div> < /
+  div > <
   /div> <
   div className = "Cards" >
   <
@@ -102,8 +102,8 @@ const IndexPage = () => ( <
   image = {
     require('../images/wallpaper.jpg')
   }
-  /> <
-  /div> <
+  /> < /
+  div > <
   /div> <
   Section image = {
     require('../images/rain.jpg')
@@ -115,8 +115,8 @@ const IndexPage = () => ( <
   text = "Transform your website into a feature rich, lightening fast, SEO optimised site that will improve your page loading speed, decrease your bounce rate, and convert more clients. " /
   >
   <
-  /div> <
-  /Layout>
+  /div> < /
+  Layout >
 )
 
 export default IndexPage

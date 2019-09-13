@@ -30,6 +30,7 @@ class Header extends React.Component {
   }
 
   render() {
+<<<<<<< HEAD
     return ( <
       div className = {
         this.state.hasScrolled ?
@@ -50,6 +51,19 @@ class Header extends React.Component {
       /div>  <
       /div>
     )
+=======
+    return (
+      <div className={this.state.hasScrolled ? 'header headerscrolled' : 'header'}>
+        <div className="headergroup">
+          <Link to="/"><img src={require('../images/logo-alpha.png')} width="80" alt="" /></Link>
+        </div>
+        <Link to="/projects">projects</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/blog">Blog</Link>
+      </div>
+     )
+>>>>>>> b733ad99c962e233689354a2fc79bb37d3ca456a
   }
 }
 

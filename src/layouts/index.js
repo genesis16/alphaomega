@@ -4,7 +4,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
 import { graphql, StaticQuery } from "gatsby"
-import Footer from '../components/Footer';
+import Footer from '../components/footer'
+import './index.css'
 
 
 export const query = graphql`
